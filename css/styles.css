@@ -315,12 +315,14 @@ button::-moz-focus-inner,
 
 .cIMG{
   width: auto;
-  height: 475px;
+  height:auto;
+  /* height: 475px; */
   max-height: 475px;
 }
 .cIMG2{
   width: auto;
-  height: 505px;
+  height:auto;
+  /* height: 505px; */
   max-height: 505px;
 }
 
