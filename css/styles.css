@@ -319,12 +319,21 @@ button::-moz-focus-inner,
   height:auto;
   /* height: 475px; */
   max-height: 475px;
+
 }
 .cIMG2{
   width: auto;
   height:auto;
   /* height: 505px; */
   max-height: 505px;
+}
+
+.cIMG3{
+  width: auto;
+  height:auto;
+  /* height: 505px; */
+  max-height: 845px;
+
 }
 
 input[type=radio],
