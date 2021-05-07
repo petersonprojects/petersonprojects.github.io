@@ -315,22 +315,23 @@ button::-moz-focus-inner,
 }
 
 .cIMG{
-  width: auto;
-  height:auto;
-  /* height: 475px; */
+  width: 500px;
+  height:450px;
+  /* height: 350px; */
   max-height: 475px;
 
 }
 .cIMG2{
   width: auto;
-  height:auto;
+  height: 700px;
   /* height: 505px; */
   max-height: 505px;
 }
 
 .cIMG3{
   width: auto;
-  height:auto;
+  max-width: 100%;
+  height:650px;
   /* height: 505px; */
   max-height: 845px;
 
