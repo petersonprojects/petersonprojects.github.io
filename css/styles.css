@@ -319,11 +319,17 @@ button::-moz-focus-inner,
   font-family: 'Recursive', sans-serif;
 }
 
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
   .pixgrid img {
     width: 50%;
   }
 }
+
+/* @media (min-width: 0px) and (max-width: 499px) {
+  .pixgrid img {
+    width: 50%;
+  }
+} */
 
 /* end of pixgrid css */
 
