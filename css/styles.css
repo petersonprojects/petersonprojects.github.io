@@ -313,15 +313,21 @@ button::-moz-focus-inner,
   border-radius: 10px;
 }
 
+.tech{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Recursive', sans-serif;
+}
+
 @media (min-width: 500px) and (max-width: 768px) {
   .pixgrid img {
-    width: 20%;
+    width: 50%;
   }
 }
 
 /* end of pixgrid css */
 
-.carousel .item>img {
+.carousel .item > img {
   position: absolute;
   top: 0;
   left: 0;
