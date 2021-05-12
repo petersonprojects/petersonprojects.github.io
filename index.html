@@ -20,13 +20,15 @@
         <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
         <!-- Core CSS (includes Bootstrap) -->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
 
     <body id="page-top">
-        <!-- Navigation-->
+
+<!-- Navigation-->
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Micah Peterson</span>
@@ -34,7 +36,7 @@
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" style="font-family: 'Recursive';">
                     <li class="nav-item"><a class="nav-link text-light js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link text-light js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link text-light js-scroll-trigger" href="#projects">Projects</a></li>
@@ -46,9 +48,9 @@
             
         </nav>
 
-        <!-- Page Content-->
         <div class="container-fluid p-0">
-            <!-- About-->
+
+<!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
@@ -68,7 +70,7 @@
                         </a>
                     </div>
 
-                    <!-- Bio -->
+<!-- Bio -->
                     <h3 style="margin-top:45px;"><span class="text-info">Baker </span>by hobby, <span class="text-info">developer</span> by trade.</h3>
 
                     <details>
@@ -91,20 +93,18 @@
                         The capabilities of code are endless, and it's the perfect career to pursue for those like me who just can't stop learning and growing without bounds. <br><br>
                       </p>
                     </details>
-
-                    <p class="lead mb-5" style="font-size:18px">
-
-                    <!-- Socials -->
-                    <div class="social-icons">
-                        <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/micah-peterson-ab2b27b7/"><i class="fab fa-linkedin-in"></i></a>
+<!-- Socials -->
+                    <div class="social-icons mt-5">
+                        <a class="social-icon bg-info" target="_blank" href="https://www.linkedin.com/in/micah-peterson-ab2b27b7/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" target="_blank" href="https://github.com/petersonprojects"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" target="_blank" href="mailto:micahpeterson@live.com"><i class="fas fa-envelope"></i></a>
+                        <a class="social-icon bg-info" target="_blank" href="mailto:micahpeterson@live.com"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
+
             </section>
 
             <hr class="m-0" />
-            <!-- Skills-->
+<!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Skills</h2>
@@ -133,51 +133,40 @@
                       <div class="col-12 text-dark">
                         HTML5 & CSS3, Bootstrap, JavaScript, Node.js, React & Redux, Npm, Python, Sequelize ORM, PostgreSQL, Amazon Web Services, jQuery 
                       </div>
-                  </div>
-
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                    </ul>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Projects-->
+
+<!-- Projects-->
+
             <section class="resume-section" id="interests">
 
                 <div class="resume-section-content">
 
+                  <!-- title of section -->
+                  <h2 id="projects" class="mb-5">Projects</h2>
 
-                    <h2 id="projects" class="mb-5">Projects</h2>
+<!-- start green chip section -->
 
-
-                    <!-- start green chip (front end) section -->
-
+                  <!-- title of project -->
                   <div class="row">
                       <div style="font-family:'Recursive', sans-serif; font-size:24px; font-weight:1000;" class="col mb-2 projTitle">Green Chip | <a href="http://micah.net.s3-website.us-east-2.amazonaws.com/" target="_blank">Live Site</a> | <a href="https://www.youtube.com/embed/Y9KWi8gW5X8" target="_blank">Video Demo</a> | <a href="https://github.com/petersonprojects/GreenChip" target="_blank"> GitHub</a></div>
                   </div>
 
+                  <!-- thumbnail images -->
                   <div class="row pixgrid mt-2 mb-2" style="color:black;margin-left:-5px;">
                     <img src="./assets/img/gc1.png" alt="">
                     <img src="./assets/img/gc2.png" alt="">
                     <img src="./assets/img/gc3.png" alt="">
                   </div>
 
+                  <!-- tech used -->
                   <p class="tech">
                     <img src="./assets/img/stack.png" width="24" height="24" alt=""> JavaScript, HTML/CSS, Firebase (Firestore & Auth), Consuming APIs
                   </p>
   
+                  <!-- description show/hide -->
                   <details>
   
                     <summary class="tech">Toggle Description</summary>
@@ -189,14 +178,15 @@
   
                   </details>
 
-                  <!--thin black line-->
-                  <hr class="mt-5 mb-5" style="border:1px solid black;">
+                <!--thin black line-->
+                <hr class="mt-5 mb-5" style="border:1px solid black;">
 
-                  <!-- start template -->
+                <!-- title of project -->
                 <div class="row">
                     <div style="font-family:'Recursive', sans-serif; font-size:24px; font-weight:1000;" class="col mb-2 projTitle">Dev Collab | <a href="www.devcollab.net/landing-page" target="_blank">Live Site</a> | <a href="https://github.com/petersonprojects/devcollab/" target="_blank"> GitHub</a></div>
                 </div>
 
+                <!-- thumbnail images -->
                 <div class="row pixgrid mt-2 mb-2" style="color:black;margin-left:-5px;">
                   <img src="./assets/img/home.png" alt="">
                   <img src="./assets/img/home2.png" alt="">
@@ -205,10 +195,12 @@
                   <img src="./assets/img/profileposts.png" alt="">
                 </div>
 
+                <!-- tech used -->
                 <p class="tech">
                   <img src="./assets/img/stack.png" width="24" height="24" alt=""> JavaScript, HTML/CSS, MongoDB, Node.js, React, Redux, React-Bootstrap, SCSS
                 </p>
 
+                <!-- description show/hide -->
                 <details>
 
                   <summary class="tech">Toggle Description</summary>
@@ -223,16 +215,14 @@
 
                 </details>
 
-                <!-- end template-->
-
-
-
                     <hr class="mt-5 mb-5" style="border:1px solid black;">
 
+                    <!-- title of project -->
                     <div class="row">
                         <div style="font-family:'Recursive', sans-serif; font-size:24px; font-weight:1000;" class="col mb-2 projTitle">Hearthstone React | <a href="https://www.linkedin.com/pulse/introducing-hearthstone-react-micah-peterson/" target="_blank">Demo</a> | <a href="https://github.com/petersonprojects/hearthstone-react/" target="_blank"> GitHub</a></div>
                     </div>
 
+                    <!-- thumbnail images -->
                     <div class="row pixgrid mt-2 mb-2" style="color:black;margin-left:-5px;">
                       <img src="./assets/img/hsreact1.png" alt="">
                       <img src="./assets/img/hsreact2.png" alt="">
@@ -240,10 +230,12 @@
                       <img src="./assets/img/hsreact4.png" alt="">
                     </div>
 
+                    <!-- tech used -->
                     <p class="tech">
                       <img src="./assets/img/stack.png" width="24" height="24" alt=""> JavaScript, HTML/CSS, Node.js, React, Redux, React-Bootstrap, OAuth, Consuming APIs
                     </p>
 
+                    <!-- description show/hide -->
                     <details>
 
                       <summary class="tech">Toggle Description</summary>
@@ -258,13 +250,17 @@
                     </details>
 
 
-                    <!-- start fire takes (back end project) section -->
+<!-- start fire takes (back end project) section -->
+
+                    <!-- thin black line -->
                     <hr class="mt-5 mb-5" style="color:#17a2b8;border:1px solid black;">
 
+                    <!-- title of project -->
                     <div class="row ">
                         <div style="font-family:'Recursive', sans-serif; font-size:24px; font-weight:1000;" class="col mb-3 projTitle"> <a target="_blank" style="color:black;" href="http://ec2-3-21-231-93.us-east-2.compute.amazonaws.com/">Fire Takes</a> | <a href="http://ec2-3-21-231-93.us-east-2.compute.amazonaws.com/" target="_blank">Live Site</a> | <a href="https://github.com/petersonprojects/FireTakes" target="_blank"> GitHub</a></div>
                     </div>
 
+                    <!-- thumbnail images -->
                     <div class="row pixgrid mt-2 mb-2" style="color:black;margin-left:-5px;">
                       <img src="./assets/img/ft2.png" alt="">
                       <img src="./assets/img/ft3.png" alt="">
@@ -272,10 +268,12 @@
                       <img src="./assets/img/ft4.png" alt="">
                     </div>
 
+                    <!-- tech used -->
                     <p class="tech">
                       <img src="./assets/img/stack.png" width="24" height="24" alt=""> JavaScript, HTML/CSS, PostgreSQL, Sequelize, Bootstrap, Consuming APIs
                     </p>
 
+                    <!-- description show/hide -->
                     <details>
 
                       <summary class="tech">Toggle Description</summary>
@@ -286,23 +284,29 @@
 
                     </details>
 
-                    <!-- start of blackjack section -->
-                <hr class="mt-5 mb-5" style="border:1px solid black;">
+<!-- start of blackjack section -->
 
+                    <!-- thin black line -->
+                    <hr class="mt-5 mb-5" style="border:1px solid black;">
+
+                    <!-- title of project -->
                     <div class="row ">
                         <div style="font-family:'Recursive', sans-serif; font-size:24px; font-weight:1000;" class="col mb-3 projTitle" style="color:black;"> Space Blackjack | <a href="https://github.com/petersonprojects/JavaScript/tree/master/blackjack" target="_blank"> GitHub</a></div>
                     </div>
 
+                    <!-- thumbnail images -->
                     <div class="row pixgrid mt-2 mb-2" style="color:black;margin-left:-5px;">
                       <img src="./assets/img/bj1.png" alt="">
                       <img src="./assets/img/bj2.png" alt="">
                       <img src="./assets/img/bj3.png" alt="">
                     </div>
 
+                    <!-- tech used -->
                     <p class="tech">
                       <img src="./assets/img/stack.png" width="24" height="24" alt=""> JavaScript, HTML/CSS, Functional Programming
                     </p>
 
+                    <!-- description show/hide -->
                     <details>
 
                       <summary class="tech">Toggle Description</summary>
@@ -316,7 +320,7 @@
                     </details>
 
                     <!-- start of RPG Game section -->
-                <hr class="mt-5 mb-5" style="border:1px solid black;">
+                    <hr class="mt-5 mb-5" style="border:1px solid black;">
 
                     <div class="row ">
                         <div style="font-family:'Recursive', sans-serif; font-size:24px; font-weight:1000;" class="col mb-3 projTitle" style="color:black;"> Terminal RPG | <a href="https://github.com/petersonprojects/RPGgame" target="_blank"> GitHub</a></div>
@@ -381,16 +385,11 @@
                       </p>
 
                     </details>
-                    
-
-
-
                 </div> <!-- end resume-section-content -->
-
             </section>
 
-
             <hr class="m-0" />
+
             <!-- Education-->
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
@@ -398,16 +397,16 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                       <div class="flex-grow-1">
                           <h3 class="mb-0 pt-3">Digitalcrafts</h3>
-                          <div class="subheading mb-3">Fullstack Immersive</div>
-                          <p>Digitalcrafts is an intense coding boot-camp that turns beginner coders into full stack developers. Curriculum includes command line, Python, JavaScript, Node.js, React, HTML/CSS, PostgreSQL, Sequelize ORM and many supporting technologies.</p>
+                          <div class="subheading mb-3">Certified Fullstack Web Developer</div>
+                          <p>Intense web-development program which includes Command Line, Python, JavaScript, Node.js, React and Redux, HTML/CSS, PostgreSQL, Sequelize ORM, jQuery and many other supporting technologies.</p>
                       </div>
                       <div class="flex-shrink-0 pt-3"><span class="text-info">June 2020 - October 2020</span></div>
                   </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0 pt-3">University of Texas at Austin</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <p>Over sixty credit hours completed. Relevant coursework: General Chemistry I & II, Computer Science I & II, Calculus I & II</p>
+                            <div class="subheading mb-3">Computer Science & Chemistry</div>
+                            <p>60+ credit hours completed towards BS requirements. Relevant coursework: General Chemistry I & II, Computer Science I & II, Calculus I & II</p>
                         </div>
                         <div class="flex-shrink-0 pt-3"><span class="text-info ">August 2013 - May 2015</span></div>
                     </div>
@@ -484,6 +483,8 @@
                 </div>
             </section>
         </div>
+
+
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
@@ -493,5 +494,6 @@
         <script src="js/scripts.js"></script>
         <!-- Pix Grid -->
         <script src="/js/pixgrid.js"></script>
+        
     </body>
 </html>
