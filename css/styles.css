@@ -322,6 +322,7 @@ button::-moz-focus-inner,
 @media (min-width: 0px) and (max-width: 768px) {
   .pixgrid img {
     width: 50%;
+    height:40%;
   }
 }
 
