@@ -12,6 +12,7 @@ var pixGrid = function() {
         myNodes[i].addEventListener("click", function(e) {
             if ("IMG" === e.target.tagName) {
                 var myOverlay = document.createElement("div");
+                
                 myOverlay.id = "overlay", document.body.appendChild(myOverlay), myOverlay.style.position = "absolute", 
                 myOverlay.style.top = 0, myOverlay.style.backgroundColor = "rgba(0,0,0,0.7)", myOverlay.style.cursor = "pointer", 
                 myOverlay.style.width = window.innerWidth + "px", myOverlay.style.height = window.innerHeight + "px", 
@@ -27,6 +28,10 @@ var pixGrid = function() {
                     myOverlay && (window.removeEventListener("resize", window, !1), window.removeEventListener("scroll", window, !1), 
                     myOverlay.parentNode.removeChild(myOverlay));
                 }, !1), window.addEventListener("scroll", function() {
+                }), largeImage.addEventListener("mouseleave", function() {
+                    myOverlay && (window.removeEventListener("resize", window, !1), window.removeEventListener("scroll", window, !1), 
+                    myOverlay.parentNode.removeChild(myOverlay));
+                }, !1), window.addEventListener("scroll", function() {
                     myOverlay && (myOverlay.style.top = window.pageYOffset + "px", myOverlay.style.left = window.pageXOffset + "px");
                 }, !1), window.addEventListener("resize", function() {
                     myOverlay && (myOverlay.style.width = window.innerWidth + "px", myOverlay.style.height = window.innerHeight + "px", 
@@ -36,5 +41,17 @@ var pixGrid = function() {
             }
         }, !1);
     }
+
+    // myOverlay.addEventListener("mouseleave", (e)=> {
+
+    //     myOverlay && (window.removeEventListener("resize", window, !1),
+    //     window.removeEventListener("scroll", window, !1), 
+    //     myOverlay.parentNode.removeChild(myOverlay));
+    // })
+
+    // select whole page and add event listener that will close the 
+    // image if its open
+
+
 
 }();
